@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LiberaSinglePassEMini</class>
+ <widget class="TaurusWidget" name="LiberaSinglePassEMini">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="0">
+    <widget class="TaurusTrend" name="taurusTrend_2"/>
+   </item>
+   <item row="1" column="0" rowspan="2">
+    <widget class="TaurusTrend" name="taurusTrend"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="TaurusCurveDialog" name="taurusCurveDialog">
+     <property name="modifiableByUser">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TaurusWidget</class>
+   <extends>QWidget</extends>
+   <header>taurus.qt.qtgui.container</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TaurusCurveDialog</class>
+   <extends>QDialog</extends>
+   <header>taurus.qt.qtgui.extra_guiqwt</header>
+  </customwidget>
+  <customwidget>
+   <class>TaurusPlot</class>
+   <extends>QwtPlot</extends>
+   <header>taurus.qt.qtgui.plot</header>
+  </customwidget>
+  <customwidget>
+   <class>TaurusTrend</class>
+   <extends>TaurusPlot</extends>
+   <header>taurus.qt.qtgui.plot</header>
+  </customwidget>
+  <customwidget>
+   <class>QwtPlot</class>
+   <extends>QFrame</extends>
+   <header>qwt_plot.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

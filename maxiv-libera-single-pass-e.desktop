@@ -1,0 +1,9 @@
+
+[Desktop Entry]
+Name=MAX IV LiberaSinglePassE
+Exec=ctLiberaSinglePassE
+Type=Application
+Categories=MAXIV
+Comment=The Libera Single Pass E Taurus GUI
+Terminal=false
+Name[en_US]=maxiv-libera-single-pass-e.desktop

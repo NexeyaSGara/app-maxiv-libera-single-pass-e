@@ -1,0 +1,3 @@
+include src/tgconf_libera_single_pass_e/images/*
+include src/tgconf_libera_single_pass_e/default.ini
+include maxiv-linac-libera-single-pass-e.desktop

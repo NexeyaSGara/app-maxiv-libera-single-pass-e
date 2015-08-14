@@ -1,0 +1,2 @@
+#!/bin/bash
+python -m tgconf_libera_single_pass_e.main --taurus-polling-period=1000
